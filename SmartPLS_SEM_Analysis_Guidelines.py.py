@@ -2,7 +2,7 @@ import streamlit as st
 
 # --- 1. PAGE CONFIGURATION ---
 st.set_page_config(
-    page_title="SmartPLS Results Assistant",
+    page_title="SmartPLS Results Assistant by Mahbub Hassan",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -603,4 +603,5 @@ elif page == "🧬 Step 3: Advanced Analyses":
                 if consistency > 0.80:
                     display_metric(f"Consistency: {consistency:.3f}", "VALID RECIPE", f"This 'recipe' is a valid path to the outcome, explaining {coverage*100:.0f}% of it.", "pass")
                 else:
+
                     display_metric(f"Consistency: {consistency:.3f}", "NOT VALID", "This 'recipe' is not a reliable path to the outcome.", "fail")
