@@ -2,7 +2,7 @@ import streamlit as st
 
 # --- 1. PAGE CONFIGURATION ---
 st.set_page_config(
-    page_title="SmartPLS Results Assistant by Mahbub Hassan",
+    page_title="SmartPLS Research Assistant by Mahbub Hassan",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -605,3 +605,4 @@ elif page == "🧬 Step 3: Advanced Analyses":
                 else:
 
                     display_metric(f"Consistency: {consistency:.3f}", "NOT VALID", "This 'recipe' is not a reliable path to the outcome.", "fail")
+
